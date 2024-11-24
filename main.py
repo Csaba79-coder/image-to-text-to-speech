@@ -12,8 +12,10 @@ def main():
 
     # Képek fájl elérési útja
     image_paths = [
-        os.path.join(input_dir, "couple.jpg"), # araffe coule ... a rough helyett
-        os.path.join(input_dir, "xmas.jpg") # helyes output az input alapján, bár örültem volna, ha a karácsonyfát is felismeri még! de nem ... :)
+        # araffe coule ... a rough helyett
+        os.path.join(input_dir, "couple.jpg"),
+        # helyes output az input alapján, bár örültem volna, ha a karácsonyfát is felismeri még! de nem ... :)
+        os.path.join(input_dir, "xmas.jpg")
     ]
 
     for image_path in image_paths:
@@ -44,7 +46,7 @@ def main():
 
     print("---------------------------------------------------")
     # couple.jpg helyes input szöveg:
-    correct_input_text =  "A rough couple kissing in front of the Eiffel Tower in Paris"
+    correct_input_text = "A rough couple kissing in front of the Eiffel Tower in Paris"
     print("Hallás utáni szöveg angolul: " + correct_input_text)
     # annak fordítása:
     correct_translated_text = only_translate_to_hungarian(correct_input_text)
