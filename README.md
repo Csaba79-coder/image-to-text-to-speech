@@ -2,10 +2,7 @@
 
 <div style="display: flex; align-items: center;">
   <img src="doc/img/egyetemi-logo.png" alt="University Logo" width="200" style="margin-right: 20px;">
-  <p>This project processes an input image file using a pre-trained image-to-text  <br>
-model to generate a description of the image in English. It then translates <br>
-the generated text into Hungarian and creates audio files for both the <br>
-English and Hungarian texts. Finally, the project plays back the audio files aloud.
+  <p>This project processes an input image file using a pre-trained image-to-text model to generate a description of the image in English. It then translates the generated text into Hungarian and creates audio files for both the English and Hungarian texts. Finally, the project plays back the audio files aloud.
 </p>
 </div>
 
